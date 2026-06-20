@@ -1,0 +1,52 @@
+### Auto-Scrambling-Python-Opcodes
+###### Made By ExRFy
+------
+
+<img src="https://img.shields.io/badge/Python-3.13.8-blue">
+
+<img src="https://img.shields.io/badge/使用提示-生产环境建议使用git备份-red">
+
+------
+
+目录
+* [介绍](#介绍)
+* [使用](#使用)
+
+<p id="介绍"></p>
+
+------
+
+# 介绍
+
+这是一款使用python的Python 3.13 opcodes混淆工具
+
+能让opcode的顺序完全重新排列，如
+```
+Examples (name: old -> new):
+    CACHE: 0 -> 208
+    NOP: 30 -> 105
+    LOAD_CONST: 83 -> 103
+    POP_TOP: 32 -> 72
+    RESUME: 149 -> 138
+    INSTRUMENTED_LINE: 254 -> 27
+    JUMP: 256 -> 265
+    STORE_FAST_MAYBE_NULL: 267 -> 256
+```
+
+这种的
+
+<p id="使用"></p>
+
+------
+
+# 使用
+
+使用方法：
+
+1. 找一个3.13的cpython仓库，clone下来
+
+2. 运行脚本，第一个参数填仓库目录
+
+可选择项：
+
+  --seed 该参数能指定随机数种子，若无该参数则反转opcode
