@@ -43,7 +43,7 @@ Examples (name: old -> new):
 
 使用方法：
 
-1. 找一个3.13的cpython仓库，clone下来
+1. 找一个3.13的cpython仓库，download下来
 
 2. 运行脚本，第一个参数填仓库目录
 
