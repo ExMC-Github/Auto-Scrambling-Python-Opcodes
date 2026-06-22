@@ -1,0 +1,2 @@
+[console_scripts]
+scramble-opcodes = scramble_opcodes.py:main

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+auto_scrambling_python_opcodes.egg-info/PKG-INFO
+auto_scrambling_python_opcodes.egg-info/SOURCES.txt
+auto_scrambling_python_opcodes.egg-info/dependency_links.txt
+auto_scrambling_python_opcodes.egg-info/entry_points.txt
+auto_scrambling_python_opcodes.egg-info/top_level.txt
+scramble_313_opcodes/__init__.py
+scramble_313_opcodes/scramble_opcodes.py
