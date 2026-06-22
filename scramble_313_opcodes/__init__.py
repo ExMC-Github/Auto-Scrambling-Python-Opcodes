@@ -1,0 +1,1 @@
+from scramble_opcodes import *
