@@ -20,7 +20,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-scramble-opcodes = "scramble_opcodes.py:main"
+scramble-opcodes = "scramble_opcodes:main"
 
 [tool.setuptools.packages.find]
 include = ["scramble_313_opcodes*"]
