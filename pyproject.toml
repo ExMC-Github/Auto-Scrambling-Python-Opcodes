@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto-scrambling-python-opcodes"
+version = "0.1.0"
+description = "一个适用于Python 3.13的自动混淆opcode脚本"
+readme = "README.md"
+authors = [
+    {name = "ExMC-Github", email = "2545869165@qq.com"}
+]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: Apache-2.0 license",
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+scramble-opcodes = "scramble_opcodes.py:main"
+
+[tool.setuptools.packages.find]
+include = ["scramble_313_opcodes*"]
