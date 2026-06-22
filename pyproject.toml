@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "auto-scrambling-python-opcodes"
-version = "0.1.0"
+version = "0.1.2"
 description = "一个适用于Python 3.13的自动混淆opcode脚本"
 readme = "README.md"
 authors = [
@@ -20,7 +20,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-scramble-opcodes = "scramble_opcodes:main"
+scramble-opcodes = "scramble_313_opcodes:main"
 
 [tool.setuptools.packages.find]
 include = ["scramble_313_opcodes*"]

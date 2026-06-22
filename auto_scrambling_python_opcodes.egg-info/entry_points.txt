@@ -1,2 +1,2 @@
 [console_scripts]
-scramble-opcodes = scramble_opcodes.py:main
+scramble-opcodes = scramble_313_opcodes:main

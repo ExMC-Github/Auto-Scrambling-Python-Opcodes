@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: auto-scrambling-python-opcodes
-Version: 0.1.0
+Version: 0.1.2
 Summary: 一个适用于Python 3.13的自动混淆opcode脚本
 Author-email: ExMC-Github <2545869165@qq.com>
 License: Apache-2.0
