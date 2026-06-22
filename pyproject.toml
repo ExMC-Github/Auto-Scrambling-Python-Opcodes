@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "auto-scrambling-python-opcodes"
-version = "0.1.2"
+version = "0.1.3"
 description = "一个适用于Python 3.13的自动混淆opcode脚本"
 readme = "README.md"
 authors = [

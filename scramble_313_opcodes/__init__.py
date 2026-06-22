@@ -1,1 +1,1 @@
-from scramble_opcodes import *
+from scramble_313_opcodes.scramble_opcodes import *
